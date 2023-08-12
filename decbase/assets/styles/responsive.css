@@ -1,0 +1,188 @@
+@media (max-width: 991px) {
+    header .bars {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    header .times {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1.4rem;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    header .nav-right {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 100000;
+        transition: all 0.3s ease-in-out;
+    }
+
+    header .nav-right ul {
+        flex-direction: column;
+        justify-content: center;
+        height: inherit;
+    }
+
+    header .nav-right ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .nav-right ul li:not(:last-child) {
+        border-bottom: 1px solid #ddd;
+    }
+
+    header .nav-right ul li a {
+        padding: 16px 0;
+    }
+
+    header .nav-right ul li a.signup-btn {
+        background: initial;
+        border-radius: initial;
+        padding: 16px 0;
+        margin-left: initial;
+    }
+
+    header.show-sidebar .nav-right {
+        left: 0;
+    }
+
+    h1 {
+        font-size: 40px !important;
+        line-height: 1.2 !important;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .btnn {
+        font-size: 14px;
+    }
+
+    .top-heading h2 {
+        font-size: 32px !important;
+    }
+
+    section {
+        padding: 70px 0;
+    }
+
+    .complete-content-col::before {
+        display: none;
+    }
+
+    .complete-content-col:nth-child(even) {
+        transform: initial;
+    }
+
+    .complete-content {
+        width: 100%;
+    }
+
+    .complete-btn {
+        margin-top: 10px;
+    }
+
+    .testi-content img {
+        max-width: 60px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 40px 0;
+    }
+
+    .top-heading h2 {
+        font-size: 24px !important;
+    }
+
+    .top-heading span {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 35px !important;
+    }
+
+    .banner {
+        padding: 60px 0;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .banner-content p {
+        margin-top: 16px;
+    }
+
+    .service-content a {
+        padding: 30px;
+    }
+
+    .about-content {
+        margin-left: 12px;
+    }
+
+    .success {
+        text-align: center;
+    }
+
+    .success .clip-txt {
+        font-size: 150px !important;
+    }
+
+    .blog-content .info {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .testi-content h4 span {
+        font-size: 12px;
+    }
+
+    .signup-form form button {
+        font-size: 14px;
+        padding: 0px 6px;
+    }
+
+    .footer-content h4 {
+        margin-bottom: 16px;
+    }
+
+    .success .top-heading h2 {
+        margin: 16px 0;
+    }
+
+    .swiper-arrows {
+        top: -1.5rem;
+    }
+
+    .success .top-heading .btnn {
+        margin-bottom: 16px;
+    }
+
+    .banner-content h1::before {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 420px) {}
